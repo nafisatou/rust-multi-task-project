@@ -1,0 +1,10 @@
+[package]
+name = "rust-file-upload-endpoint"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7", features = ["multipart"] } # Enable multipart feature
+tokio = { version = "1", features = ["full"] }
+serde = "1"
+serde_json = "1"
